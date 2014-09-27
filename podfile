@@ -1,1 +1,9 @@
-platform :ios, :deployment_target => “7.0”
+platform :ios, :deployment_target => "7.0"
+
+pod 'MMDrawerController'
+pod 'IDMPhotoBrowser'
+pod 'pop'
+pod 'AFNetworking'
+pod 'Facebook-iOS-SDK', '~> 3.14'
+pod 'XLRemoteImageView'
+pod 'SVProgressHUD'
