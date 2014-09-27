@@ -1,0 +1,68 @@
+PODS:
+  - AFNetworking (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.4.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.4.1)
+  - AFNetworking/Security (2.4.1)
+  - AFNetworking/Serialization (2.4.1)
+  - AFNetworking/UIKit (2.4.1):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Bolts (1.1.2)
+  - DACircularProgress (2.2.0)
+  - Facebook-iOS-SDK (3.18.0):
+    - Bolts
+  - IDMPhotoBrowser (1.4):
+    - AFNetworking
+    - DACircularProgress
+    - pop
+  - MMDrawerController (0.5.7):
+    - MMDrawerController/Core
+    - MMDrawerController/MMDrawerBarButtonItem
+    - MMDrawerController/MMDrawerVisualStates
+    - MMDrawerController/Subclass
+  - MMDrawerController/Core (0.5.7)
+  - MMDrawerController/MMDrawerBarButtonItem (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/MMDrawerVisualStates (0.5.7):
+    - MMDrawerController/Core
+  - MMDrawerController/Subclass (0.5.7):
+    - MMDrawerController/Core
+  - pop (1.0.7)
+  - SVProgressHUD (1.0)
+  - XLRemoteImageView (2.0.0):
+    - AFNetworking (~> 2.0)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Facebook-iOS-SDK (~> 3.14)
+  - IDMPhotoBrowser
+  - MMDrawerController
+  - pop
+  - SVProgressHUD
+  - XLRemoteImageView
+
+SPEC CHECKSUMS:
+  AFNetworking: 0aabc6fae66d6e5d039eeb21c315843c7aae51ab
+  Bolts: 2635e8698a630774689441047f3465d78c48d485
+  DACircularProgress: 3b41941891a56dc6aa17971f5322a9a38a6f446e
+  Facebook-iOS-SDK: fa12c51cc57bfb6f92e47793c9d4d2c65bc92741
+  IDMPhotoBrowser: da2110d99ea8735ad9a0ba52f2d184e756104a71
+  MMDrawerController: c3ab7a318ddc7e2bcd133139c3161af08c6e1197
+  pop: 2f14a1ea61339767af9e66741b418c831b3844df
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  XLRemoteImageView: 894947d21f701ba47f59d2435a638c34d8cd88bc
+
+COCOAPODS: 0.33.1
